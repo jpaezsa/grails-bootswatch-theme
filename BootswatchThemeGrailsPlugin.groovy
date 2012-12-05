@@ -13,7 +13,7 @@ class BootswatchThemeGrailsPlugin {
     def authorEmail = "colaru@gmail.com"
     def title = "Bootswatch Theme"
     def description = '''\\
-Provides different styles for Twitter Bootstrap based on http://bootswatch.com/
+Provides different styles for Twitter Bootstrap UI Set (from Grails Platform UI) based on http://bootswatch.com themes.
 '''
 
     // URL to the plugin's documentation
