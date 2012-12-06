@@ -1,16 +1,14 @@
 
 // Put your resources in here
 modules = {
-    overrides {
-        'bootswatch-js' {
-            dependsOn 'jquery'
-        }
-    }
     
-	// Possibilities: cyborg, united
+	// Possibilities: cyborg, united, superhero
 	
     'theme.Bootswatch' {
-        resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css/united', file:'styling.css']
+		dependsOn 'jquery', 'bootstrap-js'
+		resource id:'bootstrap', url:[plugin:'bootswatch-theme', dir:'css/united', file:'bootstrap.css']
+		resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css', file:'styling.css']
+		
     }
 
     'theme.Bootswatch.sidebar' {

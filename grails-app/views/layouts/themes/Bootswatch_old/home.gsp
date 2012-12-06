@@ -6,6 +6,7 @@
         <header class="masthead">
             <div class="inner">
                 <div class="container">
+                    <ui:logo class="brand" width="450" height="120"/>
                     <theme:layoutZone name="banner"/>
                 </div>
             </div>  
@@ -13,7 +14,7 @@
         <div class="container">
             <div class="content">
                 <div class="row">
-                    <div class="span11">
+                    <div class="span12">
                         <theme:layoutZone name="body"/>
                     </div>
                 </div>
@@ -21,7 +22,7 @@
                     <div class="span4">
                         <theme:layoutZone name="panel1"/>
                     </div>
-                    <div class="span3">
+                    <div class="span4">
                         <theme:layoutZone name="panel2"/>
                     </div>
                     <div class="span4">

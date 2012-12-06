@@ -1,7 +1,7 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
+<div class="topbar">
+    <div class="topbar-inner">
         <div class="container">
-            <ui:logo/>
+            <ui:logo class="brand" width="97"/>
             <theme:layoutZone name="navigation"/>
             <theme:layoutZone name="user-navigation"/>
         </div>

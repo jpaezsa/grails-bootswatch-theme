@@ -8,7 +8,7 @@ Provides a Plugin Platform Theme based on Twitter Bootstrap Bootswatch Themes
   <documentation>http://grails.org/plugin/bootswatch-theme</documentation>
   <type>BootswatchThemeGrailsPlugin</type>
   <resources>
-    <resource>BootstrapThemeResources</resource>
+    <resource>BootswatchThemeResources</resource>
   </resources>
   <repositories>
     <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />

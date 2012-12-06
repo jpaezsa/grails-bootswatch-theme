@@ -11,12 +11,12 @@
                     <theme:layoutTitle/>
                 </div>
                 <div class="row">
-                    <div class="span12">
+                    <div class="span11">
                         <theme:layoutZone name="secondary-navigation"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span12">
+                    <div class="span11">
                         <theme:layoutZone name="body"/>
                     </div>
                 </div>

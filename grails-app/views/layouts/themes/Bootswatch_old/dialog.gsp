@@ -8,7 +8,9 @@
                     <div class="page-header">
                         <theme:layoutTitle/>
                     </div>
-                    <theme:layoutZone name="body"/>
+                    <div class="row">
+                        <theme:layoutZone name="body"/>
+                    </div>
                 </div>
             </div>
         </div>

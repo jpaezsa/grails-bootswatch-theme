@@ -14,7 +14,7 @@
                     <theme:layoutZone name="secondary-navigation"/>
                 </div>
                 <div class="row">
-                    <div class="span9">
+                    <div class="span8">
                         <theme:layoutZone name="body"/>
                     </div>
                     <div class="span3">

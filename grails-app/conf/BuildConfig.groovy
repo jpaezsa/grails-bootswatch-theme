@@ -38,7 +38,9 @@ grails.project.dependency.resolution = {
             export = false
         }
         
+		runtime ":jquery:1.7.1"
         compile ":platform-ui:1.0.M1-SNAPSHOT" 
         compile ":bootstrap-ui:1.0-SNAPSHOT"
+		runtime ":twitter-bootstrap:2.2.1"
     }
 }

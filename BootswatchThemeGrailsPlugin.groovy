@@ -21,7 +21,7 @@ Provides different styles for Twitter Bootstrap UI Set (from Grails Platform UI)
 
     def doWithConfig = { config ->
         platformUi {
-            themes.Bootstrap.ui.set = "Bootstrap"
+            themes.Bootswatch.ui.set = "Bootstrap"
         }
     }
     
