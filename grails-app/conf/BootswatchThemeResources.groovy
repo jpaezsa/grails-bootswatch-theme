@@ -1,14 +1,13 @@
 
 // Put your resources in here
 modules = {
-    
+
 	// Possibilities: cyborg, united, superhero
-	
+
     'theme.Bootswatch' {
 		dependsOn 'jquery', 'bootstrap-js'
 		resource id:'bootstrap', url:[plugin:'bootswatch-theme', dir:'css/united', file:'bootstrap.css']
 		resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css', file:'styling.css']
-		
     }
 
     'theme.Bootswatch.sidebar' {
