@@ -2,14 +2,25 @@
 // Put your resources in here
 modules = {
 
-	// Possibilities: cyborg, united, superhero
-
+	// Possibilities: amelia, cerulean, cosmo, cyborg, journal, readable, simplex, slate, spacelab, spruce, superhero, united
     'theme.Bootswatch' {
 		dependsOn 'jquery', 'bootstrap-js'
 		resource id:'bootstrap', url:[plugin:'bootswatch-theme', dir:'css/united', file:'bootstrap.css']
 		resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css', file:'styling.css']
     }
 
+	'theme.BootswatchCerulean' {
+		dependsOn 'jquery', 'bootstrap-js'
+		resource id:'bootstrap', url:[plugin:'bootswatch-theme', dir:'css/cerulean', file:'bootstrap.css']
+		resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css', file:'styling.css']
+	}
+	
+	'theme.BootswatchAmelia' {
+		dependsOn 'jquery', 'bootstrap-js'
+		resource id:'bootstrap', url:[plugin:'bootswatch-theme', dir:'css/amelia', file:'bootstrap.css']
+		resource id:'styling', url:[plugin:'bootswatch-theme', dir:'css', file:'styling.css']
+	}
+	
     'theme.Bootswatch.sidebar' {
         // Add your 'sidebar' specific CSS/JS files here
     }
