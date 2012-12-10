@@ -14,6 +14,8 @@ class BootswatchThemeGrailsPlugin {
     def doWithConfig = { config ->
         platformUi {
             themes.Bootswatch.ui.set = "Bootstrap"
+			themes.BootswatchCerulean.ui.set = "Bootstrap"
+			themes.BootswatchAmelia.ui.set = "Bootstrap"
         }
     }
 }
